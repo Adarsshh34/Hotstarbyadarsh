@@ -111,16 +111,16 @@ body{
     width: 112px;
     border: 2px solid red;
   }
-  /* .a-card{
+  .a-card{
     border: 2px solid green;
-  } */
+  }
   .cardd{
     height: 150px;
     width: 110px;
   }
   .section{
      background-color: green;
-     width: 414px;
+     /* width: 414px; */
      height: 200px;
   }
   
@@ -231,4 +231,11 @@ body{
   transition: transform .2s;
   margin: 4px;
   overflow: visible;
+}
+.movie-section{
+  position: absolute;
+  width: 100%;
+  top: 72px;
+  background-color: #121927;
+  color: white;
 }

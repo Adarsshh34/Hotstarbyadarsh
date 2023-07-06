@@ -5,7 +5,7 @@ export default function Cardlist(props) {
   return (
     <>
         <div  className="cardd">
-          <img className="cardd"  src={props.image} alt="" />
+          <img className="cardd" src={props.image} alt="" />
         </div>
       
     </>

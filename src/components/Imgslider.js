@@ -49,14 +49,15 @@ const Wrap =styled.div`
     }
     a img{
         // width:1515px
+        // width:100%;
     }
-    // @media (max-width:416){
-    //     a img{
-    //         // width:1711px;
-    //         background-color:red;
+    @media (max-width:416){
+        a img{
+            // width:1711px;
+            background-color:red;
 
-    //     }
-    // }
+        }
+    }
 ` ;
 export default function Imgslider() {
     let settings={
